@@ -1,0 +1,46 @@
+# Claude Code files (stay local, never pushed)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# Source CV: includes a phone number, keep it out of the public repo
+/cv-new.pdf
+
+# Anything dropped in the root by accident: site media belongs in assets/media
+/*.mp4
+/*.mov
+/*.mkv
+/*.webm
+/*.avi
+/*.gif
+/*.png
+/*.jpg
+/*.jpeg
+/*.pdf
+/*.pptx
+/*.docx
+/*.zip
+
+# Working material and personal notes: copy what the site needs into assets/media.
+# The paper source has teammates' emails and raw results.
+/comparisons/
+/crax-paper-project.tex
+/context/
+/inbox/
+/todo.md
+
+# Local secrets
+.env
+.env.*
+
+# Python (local preview server)
+__pycache__/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
