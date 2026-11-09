@@ -23,7 +23,7 @@ window.PORTFOLIO = {
       { label: "GitHub", url: "https://github.com/crismariudenis" },
       { label: "LinkedIn", url: "https://www.linkedin.com/in/crismariu-denis-347778223/" },
       { label: "Email", url: "mailto:deniscrismariu@gmail.com" },
-      // { label: "CV", url: "assets/cv.pdf" },
+      { label: "CV", url: "assets/cv.pdf" },
     ],
   },
 
@@ -68,7 +68,7 @@ window.PORTFOLIO = {
           ],
           tags: ["C++", "raylib", "NEAT", "Multi-agent"],
           links: [
-            // { label: "Code", url: "" },
+            { label: "Code", url: "https://github.com/crismariudenis/NEAT-Thesis" },
             // { label: "Thesis PDF", url: "" },
             // { label: "Demo video", url: "" },
           ],
@@ -121,14 +121,14 @@ window.PORTFOLIO = {
             { label: "Project website", url: "https://sratanjot1.github.io/Research-Topics-/" },
             { label: "My fork", url: "https://github.com/crismariudenis/CRAX-Denis-Fork" },
             { label: "CRAX", url: "https://github.com/TTomilin/CRAX" },
-            // { label: "Paper", url: "assets/media/bullet-time/paper.pdf" },
+            { label: "Paper", url: "assets/media/bullet-time/paper.pdf" },
           ],
         },
         {
           title: "NeuralNetworkCPP",
           subtitle: "Neural network library in C++",
           meta: "July 2023 – November 2024",
-          text: "A small plug-and-play API with backpropagation, SGD with momentum, learning rate decay and HogBatching, a lock-free HOGWILD!-style parallel mini-batch update. Demos include MNIST upscaling, digit transitions and digit compression, plus adder and XOR.",
+          text: "A small plug-and-play API with backpropagation, SGD with momentum, learning rate decay and HogBatching, a lock-free parallel mini-batch update based on Hogwild. Demos include MNIST upscaling, digit transitions and digit compression, plus adder and XOR.",
           media: [{
             src: "assets/media/neuralnetworkcpp/transition.mp4",
             poster: "assets/media/neuralnetworkcpp/transition.jpg",
@@ -244,7 +244,7 @@ window.PORTFOLIO = {
       items: [
         { title: "ML and data", tags: ["PyTorch", "TensorFlow", "NumPy", "pandas", "scikit-learn", "Matplotlib", "Jupyter"] },
         { title: "Languages", tags: ["Python", "C++", "C", "Java", "JavaScript (Node.js)"] },
-        { title: "Frameworks and tools", tags: ["JAX", "MuJoCo XLA", "FastAPI", "Docker", "Git", "Linux", "Fusion 360"] },
+        { title: "Frameworks and tools", tags: ["FastAPI", "Docker", "Git", "Linux", "Fusion 360"] },
         { title: "Spoken", tags: ["Romanian (native)", "English (C1)"] },
       ],
     },

@@ -11,7 +11,7 @@ assets/css/       Styles
 assets/js/        Page rendering, hero animation, chart renderer
 assets/data/      Thesis network and chart data
 assets/img/       Photo and favicon
-assets/media/     One folder of clips and images per project
+assets/media/     One folder of clips, images and papers per project
 ```
 
 ## Edit the content
@@ -37,4 +37,4 @@ Then open http://localhost:8000.
 
 ## Deploy
 
-In the repository settings, go to **Pages**, choose **Deploy from a branch**, and select `main` and `/ (root)`. Every push to `main` then updates the site.
+In the repository settings, go to **Pages**, choose **Deploy from a branch**, and select `master` and `/ (root)`. Every push to `master` then updates the site at https://crismariudenis.github.io/Portofolio/.
