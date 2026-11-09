@@ -66,7 +66,7 @@ window.PORTFOLIO_CHARTS = {
       { axis: "y", value: 4500, label: "Torso at 1.0 m" },
     ],
     corners: [["Goal: tall,", "avoids planes"], ["Tall,", "gets hit"], ["Low,", "avoids planes"], ["Low,", "gets hit"]],
-    starts: { Direct: { dx: 0, dy: 18, anchor: "middle" }, Curriculum: { dx: 0, dy: 18, anchor: "middle" } },
+    starts: { Direct: { dx: 4, dy: 18, anchor: "start" }, Curriculum: { dx: 0, dy: 18, anchor: "middle" } },
     labels: { Direct: { dx: 12, dy: 4, anchor: "start" }, Curriculum: { dx: 0, dy: -14, anchor: "middle" } },
     tipTitle: (p, series) => `${series.name}, level ${p.level}`,
     clockLabel: (clock) => `${clock}M training steps`,

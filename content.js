@@ -168,9 +168,9 @@ window.PORTFOLIO = {
           meta: "September 2021 – Present",
           text: "Led the Programming and 3D Design departments and organized training in programming and CAD. Also worked on building and modeling the robots.",
           bullets: [
-            "Winner of the Maryland Tech Invitational 2024, Semi-Finalist in 2023",
-            "3rd Place, Inspire Awards, FIRST Tech Challenge Romanian Nationals",
-            "Champion of the 1st and 2nd editions of the Bucharest Twin Cup",
+            "Winner of the Maryland Tech Invitational 2024, Semi-Finalist in 2023.",
+            "3rd Place, Inspire Awards, FIRST Tech Challenge Romanian Nationals.",
+            "Champion of the 1st and 2nd editions of the Bucharest Twin Cup.",
           ],
           tags: ["Leadership", "Mentoring", "Fusion 360", "3D modeling", "Assembly"],
           links: [

@@ -61,7 +61,9 @@ window.renderChart = function renderChart(config) {
   function draw() {
     const width = plot.clientWidth;
     if (!width) return;
-    const height = Math.round(width * (width < 380 ? 1.05 : 0.8));
+    // Phones get a taller plot, so the corner labels and the data don't overlap.
+    const phone = window.matchMedia("(max-width: 600px)").matches;
+    const height = Math.round(width * (phone ? 1.35 : 0.8));
     const m = { top: 12, right: 14, bottom: 60, left: 56 };
     const left = m.left;
     const right = width - m.right;
